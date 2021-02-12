@@ -8,13 +8,13 @@ namespace PerformanceExamples
         static void Main(string[] args)
         {
             _ = BenchmarkRunner.Run<StringConcatenationTests>();
+            // _ = BenchmarkRunner.Run<CollectionTests>();
+            // _ = BenchmarkRunner.Run<ExceptionTests>();
+            //  = BenchmarkRunner.Run<TryParseTests>();
+            // _ = BenchmarkRunner.Run<BoxingUnboxingTests>();
 
-             // _ = BenchmarkRunner.Run<CollectionTests>();
-             // _ = BenchmarkRunner.Run<ExceptionTests>();
-            _//  = BenchmarkRunner.Run<TryParseTests>();
-             // _ = BenchmarkRunner.Run<BoxingUnboxingTests>();
+            //BoxingUnboxingExample();
 
-            BoxingUnboxingExample();
             Console.Read();
         }
 

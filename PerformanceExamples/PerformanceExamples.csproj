@@ -253,6 +253,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BoxingUnboxingTests.cs" />
+    <Compile Include="PoolingTests.cs" />
     <Compile Include="TryParseTests.cs" />
     <Compile Include="ExceptionTests.cs" />
     <Compile Include="Program.cs" />
